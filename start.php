@@ -13,7 +13,6 @@ Correct result for €139 =  €22 + €35 + €82.<br><br>
 <form name="Editcust" action="RCProcess.php" method="post">
   
 Tot: <input type="text" id="Tot"  name="Tot"  value = "139" required ><br><br>
-Amount of active inputs: <input type="text" id="in"  name="in" required ><br><br>
 put Zeroes in unactive fields to prevent " Warning: A non-numeric value encountered "<br>
 <input type="text" id="R1"  name="R1" value = "22" required><br><br>
 <input type="text" id="R2"  name="R2" value = "35" required><br><br>

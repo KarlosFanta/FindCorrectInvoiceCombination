@@ -12,7 +12,7 @@ $R8 = $_POST['R8'];
 $R9 = $_POST['R9'];
 $R10 = $_POST['R10'];
 echo "<br>Tot: $Tot";
-echo "<br>in: $in<br>";
+//echo "<br>in: $in<br>";
 echo "<br>R1: $R1";
 echo "<br>R2: $R2";
 echo "<br>R3: $R3";

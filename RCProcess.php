@@ -57,4 +57,38 @@
 		}
 	}
 
+echo "result: <br>";
+
+echo "<br>thiscombination: <br>";
+print_r($thiscombination);
+echo "<br> <br>";
+
+echo "<br>Found invoice values: <br>";
+
+foreach($thiscombination as $value){ 
+    echo $value;
+	echo " Euros<br>";
+}
+echo "<br><br><br>0: <br>";
+echo $thiscombination[0];
+echo "<br>1: <br>";
+echo $thiscombination[1];
+echo "<br>2: <br>";
+echo @$thiscombination[2];
+echo "<br>3: <br>";
+echo @$thiscombination[3];
+echo "<br>4:  <br>";
+echo @$thiscombination[4];
+echo "<br>5: <br>";
+echo @$thiscombination[5];
+echo "<br>6: <br>";
+echo @$thiscombination[6];
+echo "<br>7: <br>";
+echo @$thiscombination[7];
+echo "<br>8: <br>";
+echo @$thiscombination[8];
+
+
+
+
 ?>

@@ -25,7 +25,7 @@ echo "<br>R9: $R9";
 echo "<br>R10: $R10<br><br>";
 $ma = [$R1, $R2, $R3, $R4, $R5, $R6, $R7, $R8, $R9, $R10 ];
 
-
+var_dump($ma);
 for ($x = 0; $x < 10; $x++) {
 //	echo "<br>MA: ";
 //echo $ma[0];
@@ -53,15 +53,15 @@ if ($T1 == $Tot )
 echo "<br>sum of 2 random numbers:<br>";
 for ($x = 0; $x < 350; $x++) //loop 200 times
 	{
-$HH = 0;
-$HH = (rand(0,9));
-$MM = $ma[$HH];
+$H1 = 0;
+$H1 = (rand(0,9));
+$M1 = $ma[$H1];
 
-$NN = 0;
-$NN = (rand(0,9));
-$PP = $ma[$NN];
+$N1 = 0;
+$N1 = (rand(0,9));
+$P1 = $ma[$N1];
 
-$T2 = $MM + $PP;
+$T2 = $M1 + $P1;
 	//echo "<br>h$MM + $PP = $T2<br><br>";
 
 if ($T2 == $Tot ) 
@@ -89,7 +89,7 @@ $T2 = $M1 + $M2 + $M3;
 	//echo "<br>$M1 + $M2 +$M3 = $T2<br><br>";
 
 if ($T2 == $Tot ) 
-	echo "<br>hooray! $M1 + $M2 +$M3 = $Tot<br><br>";
+	echo "<br>hooray! $M1 + $M2 + $M3 = $Tot<br><br>";
 }
 
 
@@ -116,7 +116,7 @@ $T4 = $M1 + $M2 + $M3 + $M4;
 	//echo "<br>$M1 + $M2 +$M3 + $M4= $T4<br><br>";
 
 if ($T4 == $Tot ) 
-	echo "<br>hooray! $M1 + $M2 +$M3 + $M4= $Tot<br><br>";
+	echo "<br>hooray! $M1 + $M2 +$M3 + $M4 = $Tot<br><br>";
 }
 
 
@@ -148,7 +148,7 @@ $T4 = $M1 + $M2 + $M3 + $M4 + $M5;
 	//echo "<br>$M1 + $M2 +$M3 + $M4 + $M5 = $T4<br><br>";
 
 if ($T4 == $Tot ) 
-	echo "<br>hooray! $M1 + $M2 +$M3 + $M4+ $M5= $Tot<br><br>";
+	echo "<br>hooray! $M1 + $M2 +$M3 + $M4+ $M5 = $Tot<br><br>";
 }
 
 echo "<br><br><br>sum of 6 random numbers:<br>";
@@ -266,7 +266,7 @@ $T4 = $M1 + $M2 + $M3 + $M4 + $M5 + $M6  + $M7 + $M8 ;
 	//echo "<br>T4: $M1 + $M2 +$M3 + $M4 + $M5  + $M6  + $M7  + $M8= $T4<br><br>";
 
 if ($T4 == $Tot ) 
-	echo "<br>hooray! $M1 + $M2 +$M3 + $M4+ $M5 + $M6  + $M7  + $M8= $Tot<br><br>";
+	echo "<br>hooray! $M1 + $M2 +$M3 + $M4+ $M5 + $M6  + $M7  + $M8 = $Tot<br><br>";
 }
 
 

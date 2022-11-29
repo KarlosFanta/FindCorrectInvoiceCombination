@@ -12,3 +12,5 @@ I received a payment of €139 and I need to find out which invoices I need to c
 Invoices amounts: €10, €22, €14, €35, €82<br>
 Correct result for €139 =  €22 + €35 + €82.<br><br>
 
+For now I am using the random gen function, which is horrendous. If you know of a better way, please do replace my code!
+Thanks

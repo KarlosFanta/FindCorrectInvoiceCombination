@@ -1,6 +1,6 @@
 <?php 
 $Tot = $_POST['Tot'];
-$in = $_POST['in']; //for loop amounts
+//$in = $_POST['in']; //for loop amounts
 $R1 = $_POST['R1'];
 $R2 = $_POST['R2'];
 $R3 = $_POST['R3'];
